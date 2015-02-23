@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3236B151-162E-4486-B8A9-C10F83B1EF3A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pm25</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>057085A384A367FF1A710CA8AC788F7C9E28DF40</key>
+		<string>https://github.com/iH2104/pm25.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pm25.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>057085A384A367FF1A710CA8AC788F7C9E28DF40</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iH2104/pm25.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>057085A384A367FF1A710CA8AC788F7C9E28DF40</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>057085A384A367FF1A710CA8AC788F7C9E28DF40</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pm25</string>
+		</dict>
+	</array>
+</dict>
+</plist>
