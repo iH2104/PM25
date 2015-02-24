@@ -50,16 +50,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func displayLocationInfo(placemark: CLPlacemark) {
         self.locationManager.stopUpdatingLocation()
         
-        println(placemark.locality)
-        println(placemark.postalCode)
-        println(placemark.administrativeArea)
-        println(placemark.country)
+//        println(placemark.locality)
+//        println(placemark.postalCode)
+//        println(placemark.administrativeArea)
+//        println(placemark.country)
         
         locality.text = placemark.locality
         pm10Level.text = "PM10  30µ/m³"
         pm25Level.text = "PM2.5 15µ/m³"
-        maskYn.text = "마스크 착용(X)"
-        bikeYn.text = "자전거 타기(O)"
+        maskYn.text = "🙌 Wearing a Mask"
+        bikeYn.text = "👋 Riding a bicycle"
     }
 
     func locationManager(manager: CLLocationManager!, didFailWithError error: NSError!) {
