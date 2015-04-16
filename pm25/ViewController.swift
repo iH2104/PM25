@@ -46,6 +46,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var pm25Level: UILabel!
     @IBOutlet weak var maskYn: UILabel!
     @IBOutlet weak var bikeYn: UILabel!
+    @IBOutlet weak var comment: UITextField!
+    
+    @IBAction func viewTapped (sender : AnyObject) {
+        comment.resignFirstResponder();
+    }
     
     func displayLocationInfo(placemark: CLPlacemark) {
         self.locationManager.stopUpdatingLocation()

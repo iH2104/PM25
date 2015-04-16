@@ -7,7 +7,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--PM 25-->
+        <!--PM(Particulate Matter) 25-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="pm25" customModuleProvider="target" sceneMemberID="viewController">
@@ -131,10 +131,11 @@
                             <outletCollection property="gestureRecognizers" destination="Sx8-Uy-ih4" appends="YES" id="zrC-u9-HNw"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="PM 25" id="138-Ua-rGS"/>
+                    <navigationItem key="navigationItem" title="PM(Particulate Matter) 25" id="138-Ua-rGS"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="bikeYn" destination="eJC-3L-fxj" id="Jp9-Vc-SQd"/>
+                        <outlet property="comment" destination="GBa-dS-11m" id="zZ5-0o-yzZ"/>
                         <outlet property="locality" destination="9fC-Lb-JiG" id="enL-JF-1Zd"/>
                         <outlet property="maskYn" destination="PyM-XW-vjK" id="1gi-bn-Bzz"/>
                         <outlet property="pm10Level" destination="fUD-ec-IKP" id="Nxr-3v-cMK"/>
@@ -142,7 +143,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="Sx8-Uy-ih4"/>
+                <tapGestureRecognizer id="Sx8-Uy-ih4">
+                    <connections>
+                        <action selector="viewTapped:" destination="vXZ-lx-hvc" id="DS2-0P-ITA"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="502.5" y="-1061.5"/>
         </scene>
