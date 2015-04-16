@@ -56,10 +56,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 //        println(placemark.country)
         
         locality.text = placemark.locality
-        pm10Level.text = "PM10  30µ/m³"
-        pm25Level.text = "PM2.5 15µ/m³"
-        maskYn.text = "Mask OK"
-        bikeYn.text = "Riding OK"
+        pm10Level.text = "PM 10 30µ/m³"
+        pm25Level.text = "PM 25 15µ/m³"
+        maskYn.text = "MASK-OK"
+        bikeYn.text = "RIDE-OK"
     }
 
     func locationManager(manager: CLLocationManager!, didFailWithError error: NSError!) {
